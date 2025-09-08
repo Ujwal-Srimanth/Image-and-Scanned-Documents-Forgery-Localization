@@ -8,19 +8,6 @@ A CNN + ELA based model for image forgery localization.
 
 A YOLOv8 model for scanned document forgery detection.
 
-📁 Project Structure
-Edit
-├── app.py                                # Flask backend and HTML frontend
-├── templates/
-│   └── index.html                        # UI for file upload and results
-├── static/                               # (Optional) Static assets like CSS
-├── image forgery localization/
-│   └── image_forgery_localization.ipynb  # ELA + CNN Jupyter Notebook
-├── document forgery detection/
-│   └── yolov8_document_detection_files   # YOLOv8 code and config
-├── model_cnn_ela.h5                      # Trained CNN+ELA model (download link below)
-├── yolov8_model.pt                       # Trained YOLOv8 model (download link below)
-└── README.md
 📌 Features
 🔍 Image Forgery Localization
 Built using a CNN architecture combined with Error Level Analysis (ELA) preprocessing.
